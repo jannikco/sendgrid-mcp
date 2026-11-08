@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "product": "pipmcp",
+  "credential": "PIPMCP_API_KEY",
+  "skills": [
+    {
+      "name": "pipmcp-sendgrid",
+      "description": "Connect AI agents to SendGrid using one PipMCP API key and actual hosted tool discovery."
+    }
+  ],
+  "files": {
+    "skills/pipmcp-sendgrid/SKILL.md": "968c780a32ba2bd13c8d9e68d94f2b71d6cac3a4bf4645d520493d7bcb83feae"
+  }
+}
