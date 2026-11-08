@@ -1,0 +1,21 @@
+{
+  "name": "sendgrid-mcp",
+  "version": "0.2.0",
+  "description": "Inspect existing transactional templates and explicitly create a new dynamic template shell without sending email.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "bin": {
+    "sendgrid-mcp": "server.mjs"
+  },
+  "scripts": {
+    "start": "node example.mjs",
+    "server": "node server.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "2.4.0"
+  }
+}
